@@ -1,0 +1,30 @@
+baseURL = 'http://dewisasikarani.github.io/'
+languageCode = 'en-us'
+title = 'Dewi Sasika Rani'
+theme = 'hello-friend-ng'
+
+[params]
+# Subtitle for home
+    homeSubtitle = "Front End Developer"
+
+[params.logo]
+    logoText = "dewisasikarani"
+    logoHomeLink = "/"
+
+# And you can even create generic menu
+  [[menu.main]]
+    identifier = "post"
+    name       = "Posts"
+    url        = "/posts"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/dewisasikarani"
+
+[[params.social]]
+  name = "facebook"
+  url = "https://web.facebook.com/shashika.sasika.7"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/dewi-sasika-rani-441236229/"
