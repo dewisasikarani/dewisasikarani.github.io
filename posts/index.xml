@@ -1,23 +1,6 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Dewi Sasika Rani</title>
-        <link>http://dewisasikarani.github.io/posts/</link>
-        <description>Recent content in Posts on Dewi Sasika Rani</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 08 Mar 2022 22:40:34 +0700</lastBuildDate>
-        <atom:link href="http://dewisasikarani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>First Post</title>
-            <link>http://dewisasikarani.github.io/posts/first-post/</link>
-            <pubDate>Tue, 08 Mar 2022 22:40:34 +0700</pubDate>
-            
-            <guid>http://dewisasikarani.github.io/posts/first-post/</guid>
-            <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
-▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-            <content type="html"><![CDATA[<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dewi Sasika Rani</title><link>http://dewisasikarani.github.io/posts/</link><description>Recent content in Posts on Dewi Sasika Rani</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Mar 2022 22:40:34 +0700</lastBuildDate><atom:link href="http://dewisasikarani.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post</title><link>http://dewisasikarani.github.io/posts/first-post/</link><pubDate>Tue, 08 Mar 2022 22:40:34 +0700</pubDate><guid>http://dewisasikarani.github.io/posts/first-post/</guid><description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description><content type="html"><![CDATA[<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 <p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
 With Jekyll, something that looked like</p>
 <pre><code>▾ &lt;root&gt;/
@@ -150,8 +133,4 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
-]]></content>
-        </item>
-        
-    </channel>
-</rss>
+]]></content></item></channel></rss>
